@@ -1,0 +1,127 @@
+/* Add custom styling for MovieBookingPage */
+
+.movie-booking-page {
+
+    margin: 50px auto;
+   
+    max-width: 800px;
+   
+    padding: 20px;
+   
+    background-color: #f7f7f7;
+   
+    border-radius: 10px;
+   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   
+   }
+   
+   .movie-booking-page h2 {
+   
+    margin-bottom: 20px;
+   
+    text-align: center;
+   
+    color: #333;
+   
+   }
+   
+   .form-group label {
+   
+    font-weight: bold;
+   
+   }
+   
+   .form-control {
+   
+    margin-bottom: 15px;
+   
+   }
+   
+   .form-control:focus {
+   
+    box-shadow: none;
+   
+    border-color: #f39c12;
+   
+   }
+   
+   .btn-primary {
+   
+    background-color: #f39c12;
+   
+    border: none;
+   
+   }
+   
+   .btn-primary:hover {
+   
+    background-color: #e67e22;
+   
+   }
+   
+   .availability-info {
+   
+    color: #999;
+   
+    font-style: italic;
+   
+    margin-top: -10px;
+   
+   }
+   
+   /* Style for select dropdown */
+   
+   .form-control-select {
+   
+    appearance: none;
+   
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 8 8'%3E%3Cpath fill='%23333' d='M0 2l4 4 4-4H0z'/%3E%3C/svg%3E");
+   
+    background-repeat: no-repeat;
+   
+    background-position: right 0.5rem center;
+   
+    background-size: 8px;
+   
+   }
+   
+   /* Additional styling for better alignment and spacing */
+   
+   @media (max-width: 576px) {
+   
+    .movie-booking-page {
+   
+     padding: 10px;
+   
+    }
+   
+    .form-group {
+   
+     margin-bottom: 10px;
+   
+    }
+   
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
